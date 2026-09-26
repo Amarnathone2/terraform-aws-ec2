@@ -1,6 +1,6 @@
 variable "ami_id" {
     type = string
-    default = "ami-090252cbe067a9e58"
+    default = "ami-0ae1e9354ffa1eae6"
 }
 
 variable "security_group_ids" {
