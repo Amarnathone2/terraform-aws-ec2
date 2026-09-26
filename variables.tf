@@ -5,7 +5,7 @@ variable "ami_id" {
 
 variable "security_group_ids" {
     type = list
-    default = #replace with your SG ID.
+    default = ["sg-09e54924f3c621e36"]#replace with your SG ID.
 }
 
 variable "instance_type" {
